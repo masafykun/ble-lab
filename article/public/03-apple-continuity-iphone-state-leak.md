@@ -223,6 +223,12 @@ void loop() {
 
 ## 実測ログ
 
+シリアルモニタを開いて流れてくる出力はこんな感じです（MAC は伏字処理済み）：
+
+![ContinuityAnalyzer のシリアル出力（複数の Apple 機器の状態がリアルタイムで見える）](https://raw.githubusercontent.com/masafykun/ble-lab/main/photos/20260525-serial-continuity-decoded.png)
+
+`Activity:` の行に注目すると、`📞 Phone/FaceTime call active`（通話中）や `🎵 Audio playing` などが取れているのが分かります。テキストにすると：
+
 自分の iPhone（強信号）と、より遠い位置からの別の iPhone（中信号）が同時に見えた瞬間：
 
 ```
