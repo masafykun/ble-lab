@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# qiita-cli auto-pulled cache (account 全記事が降ってくる)
+# 自分の3記事 (01-/02-/03-) だけ追跡
+article/public/*.md
+!article/public/0[1-9]-*.md
+!article/public/[1-9][0-9]-*.md
+article/.remote
+article/node_modules
+
+# Editor
+.vscode/
+*.swp
